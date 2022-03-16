@@ -13,17 +13,17 @@ function Header(props) {
     <div className={css.header}>
       <div className={css.headerItem}>
         <button className={css.headerItemButton} onClick={e=>handleClick("camera")}>
-          <img src={publicUrl('./assets/assets/camera.svg')} alt="Camera"/>
+          <img src={publicUrl('/assets/assets/camera.svg')} alt="Camera"/>
         </button>  
       </div>
       <div className={css.headerItem}>
         <button className={css.headerItemButton} onClick={e=>handleClick("home")}>
-          <img src={publicUrl('./assets/assets/logo.png')} alt="Instagram"/>
+          <img src={publicUrl('/assets/assets/logo.png')} alt="Instagram"/>
         </button>
       </div>
       <div className={css.headerItem}>
         <button className={css.headerItemButton} onClick={e=>handleClick("messages")}>
-          <img src={publicUrl('./assets/assets/message.svg')} alt="Home"/>
+          <img src={publicUrl('/assets/assets/message.svg')} alt="Home"/>
         </button>  
       </div>
     </div>
